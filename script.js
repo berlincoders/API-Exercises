@@ -48,10 +48,11 @@ fetch ('https://hplussport.com/api/products?qty=2&order=name')
 //})
 
 // 4) well , now we need to incorporate the data into our website
-//     the firt thing is to do change to name, we wanted to collect the name
+//     the firt thing is to do it is display the name, we wanted to collect the name
 //    of the products.
 //  4.1) create a new element, a list of products
-//  4.2) asinge the name of the products, to the new list created
+//  4.2) assign the name of the products, to the new list created
 //  4.3) append the list to the body of the document
 //
-
+// check the console.log
+//
