@@ -7,6 +7,16 @@ fetch ('https://hplussport.com/api/products?order=name')
   for(items in jsonData) {
 
       var productName = jsonData[items].name;  // all the products names
+      var products = document.createElement('li');
+
+      products.innerHTML =productName;
+      document.body.appendChild(products);
+
+      var productImg = jsonData[items].image;  // all the products images
+      // create an html element to hold the API data for the images
+      var image = document.createElement('img');
+      image.setAttribute('src', productImg);
+      document.body.appendChild(image);
 
   }
 
